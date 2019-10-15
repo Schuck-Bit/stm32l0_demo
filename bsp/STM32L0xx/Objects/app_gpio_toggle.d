@@ -1,0 +1,10 @@
+.\objects\app_gpio_toggle.o: ..\..\example\1.app_gpio_toggle\app_gpio_toggle.c
+.\objects\app_gpio_toggle.o: ..\..\os\cola_device.h
+.\objects\app_gpio_toggle.o: ..\..\os\cola_init.h
+.\objects\app_gpio_toggle.o: ..\..\os\cola_os.h
+.\objects\app_gpio_toggle.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_gpio_toggle.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\app_gpio_toggle.o: ..\..\example\example.h
+.\objects\app_gpio_toggle.o: ..\STM32L0xx\config.h
+.\objects\app_gpio_toggle.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_gpio_toggle.o: ..\STM32L0xx\..\..\example\1.app_gpio_toggle\app_gpio_toggle.h

@@ -1,0 +1,1 @@
+stm32l0xx_cube\startup_stm32l051xx.o: startup_stm32l051xx.s
