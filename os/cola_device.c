@@ -118,3 +118,17 @@ int cola_device_ctrl(cola_device_t *dev,  int cmd, void *arg)
     }
     return 0;
 }
+/*
+    Çý¶¯ÅäÖÃ
+*/
+int cola_device_config(cola_device_t *dev,void *pos,void *args)
+{
+    if(dev)
+    {
+        if(dev->dops->config)
+        {
+            return dev->dops->config(dev, pos, args);
+        }
+    }
+    return 0;
+}

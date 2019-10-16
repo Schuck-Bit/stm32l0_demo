@@ -17,6 +17,14 @@ enum DEV_sleep
     DEV_DEEP_SLEEP = 0x01,
 	
 };
+
+
+struct serial_configure
+{
+    int baud_rate;
+};
+
+
 typedef struct cola_device  cola_device_t;
 
 struct cola_device_ops
@@ -27,6 +35,7 @@ struct cola_device_ops
     int  (*read)   (cola_device_t *dev, int pos, void *buffer, int size);
     int  (*write)  (cola_device_t *dev, int pos, const void *buffer, int size);
     int  (*control)(cola_device_t *dev, int cmd, void *args);
+    int  (*config) (cola_device_t *dev,void *pos,void *args);
 
 };
 
@@ -57,5 +66,9 @@ int cola_device_write(cola_device_t *dev, int pos, const void *buffer, int size)
     Çý¶¯¿ØÖÆ
 */
 int cola_device_ctrl(cola_device_t *dev,  int cmd, void *arg);
+/*
+    Çý¶¯ÅäÖÃ
+*/
+int cola_device_config(cola_device_t *dev,void *pos,void *args);
 
 #endif 

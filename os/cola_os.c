@@ -221,7 +221,7 @@ int cola_timer_stop(task_t *timer)
     return false;
 }
 /*
-  定时信息轮训
+  定时信息轮询
 */
 void cola_timer_ticker(void)
 {

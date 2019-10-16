@@ -415,6 +415,11 @@
               <FileType>1</FileType>
               <FilePath>.\drivers\stm32_sleep.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\drivers\stm32_usart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -813,6 +818,11 @@
               <FileType>1</FileType>
               <FilePath>.\STM32L0xx_Cube\Src\rtc.c</FilePath>
             </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\STM32L0xx_Cube\Src\usart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -822,6 +832,11 @@
               <FileName>app_gpio_toggle.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\example\1.app_gpio_toggle\app_gpio_toggle.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\example\2.app_usart\app_usart.c</FilePath>
             </File>
           </Files>
         </Group>

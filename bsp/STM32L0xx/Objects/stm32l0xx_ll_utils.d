@@ -29,6 +29,8 @@
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h
+.\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h
+.\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_utils.h
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_system.h
 .\objects\stm32l0xx_ll_utils.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_pwr.h

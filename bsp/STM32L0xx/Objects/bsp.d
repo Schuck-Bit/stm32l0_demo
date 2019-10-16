@@ -31,6 +31,8 @@
 .\objects\bsp.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h
 .\objects\bsp.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h
 .\objects\bsp.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h
+.\objects\bsp.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h
+.\objects\bsp.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h
 .\objects\bsp.o: ..\..\os\cola_init.h
 .\objects\bsp.o: ..\..\os\cola_os.h
 .\objects\bsp.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

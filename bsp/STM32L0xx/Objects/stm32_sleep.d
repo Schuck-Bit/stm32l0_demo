@@ -30,6 +30,8 @@
 .\objects\stm32_sleep.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h
 .\objects\stm32_sleep.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h
 .\objects\stm32_sleep.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h
+.\objects\stm32_sleep.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h
+.\objects\stm32_sleep.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h
 .\objects\stm32_sleep.o: drivers\stm32_sleep.h
 .\objects\stm32_sleep.o: ..\..\os\cola_os.h
 .\objects\stm32_sleep.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

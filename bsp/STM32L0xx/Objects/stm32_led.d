@@ -30,6 +30,8 @@
 .\objects\stm32_led.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h
 .\objects\stm32_led.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h
 .\objects\stm32_led.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h
+.\objects\stm32_led.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h
+.\objects\stm32_led.o: .\STM32L0xx_Cube\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h
 .\objects\stm32_led.o: drivers\stm32_led.h
 .\objects\stm32_led.o: .\STM32L0xx_Cube\Inc\gpio.h
 .\objects\stm32_led.o: .\STM32L0xx_Cube\Inc\main.h

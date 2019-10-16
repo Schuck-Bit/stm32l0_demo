@@ -19,7 +19,7 @@ extern "C"
 
 
     
-//#define USING_DEBUG
+#define USING_DEBUG
 #ifdef USING_DEBUG
     #define os_log(...) printf(__VA_ARGS__)
    
@@ -49,7 +49,10 @@ extern "C"
     #ifdef APP_GPIO_TOGGLE //如果使用gpio_toggle例程，就要启用LED文件
         #define  USING_GPIO_TOGGLE
     #endif
- 
+    #define APP_USART
+    #ifdef APP_USART 
+        #define  USING_USART1
+    #endif
  
  
 #endif
